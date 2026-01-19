@@ -1,4 +1,4 @@
-# Capstone Project - Bank Telemarketing Campaign Data Analysis and Conversion Predictionn 
+# Capstone Project - Bank Telemarketing Campaign Data Analysis and Conversion Prediction 
 
 
 ## 📌 Overview
