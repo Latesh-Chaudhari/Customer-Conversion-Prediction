@@ -47,7 +47,7 @@ The target variable indicates whether the client subscribed to a term deposit.
    - Removed non-informative and redundant features
 
 3. **Model Building**
-   - Developed multiple classification models including Logistic Regression, Naive Bayes, Support Vector Machine, Decision Tree, Random Forest, Neural Network, and XGBoos
+   - Developed multiple classification models including Logistic Regression, Naive Bayes, Support Vector Machine, Decision Tree, Random Forest, Neural Network, and XGBoost
    - Selected models based on interpretability and relevance to financial risk modeling
      
 4. **Model Validation & Threshold Optimization**
