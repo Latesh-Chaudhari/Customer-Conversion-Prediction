@@ -12,6 +12,5 @@ After gaining the insights from the EDA, actual model building can be started. B
 ** Data-Preprocessing
 
    - Missing Values: The categorical columns like education, contact, Job, default, housing loan and poutcome have missing values denoted as ‘unknown’ which were replaced using mice library by sophisticated multiple imputation method.
-   - Data Transformation: 
-
-
+   - Data Transformation: The Target variable column, default, Loan has values as Yes and No which has been converted to 1 and 0 .
+   - One hot encoding: The education, contact, poutcome, Job, marital status, month, day of week  columns have categorical data hence we used one hot encoding and created separate columns to represent each level.
