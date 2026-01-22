@@ -3,7 +3,7 @@
 
 After gaining the insights from the EDA, actual model building can be started. Below flow chart shows the approach that can be performed in order to create any machine learning model.
 
-<p align="center"> ![Modelling_Approach](../Exploratory_data_Analysis/images/Modeeling_Approach.png) </p>
+<p align="center"> ![Modelling_Approach](../Exploratory_data_Analysis/images/Modelling_Approach.png) </p>
 
 ** Business Problem:** The goal of our analysis is to predict that whether particular customer will subscribe to term deposit or not which will ultimately provide the insights related to success of the telemarketing campaign. Hence this is a classification problem and classification machine learning algorithms can be built to predict target class. 
 
