@@ -1,4 +1,4 @@
-                                                               # Exploratory Data Analysis
+                                                               #Exploratory Data Analysis
 
 #### A. Target Variable Distribution
 ![Subscription Rate](images/Subscribed_target_variable.png)
@@ -12,7 +12,7 @@ The target variable shows the subscription distribution across all customers. In
 - Age binned into 7 categories (0-25, 25-35, 35-45, 45-55, 55-65, 65-75, 75-85, 85+)
 - Majority of customers fall in 25-45 age bracket 
 
-![Customer Response by Age Group](images/Subscribed_vs_Age_Group)
+![Customer Response by Age Group](images/Subscribed_vs_Age_Group.png)
 
 **Interpretation** : Customers of age group 35-55 (working class) are likely not to subscribe to term deposit products.
 
@@ -26,10 +26,10 @@ The target variable shows the subscription distribution across all customers. In
 **<ins>Marital:</ins>**
 ![Marital Status Distribution](images/Subscribed_vs_Marital_Status.png)
 
-Distribution- Married (60%), Single (28%), Divorced (12%)
+Distribution- Married (60%), Single (28%), Divorced (12%)  
 **Interpretation**: Overall Balanced representation of subscription within categories
 
-**<ins>Default:</ins>**
+**<ins>Default:</ins>**  
 ![Default vs Subscription](images/Subscribed_vs_default.png)
 
 **Interpretation**: Customers with no defaults have higher subscription rates
