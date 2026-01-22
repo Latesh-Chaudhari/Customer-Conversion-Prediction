@@ -16,4 +16,5 @@ The target variable shows the subscription distribution across all customers. In
 
 ![Customer Response by Age Group](images/Histogram_Age_Group.png)
 
-Interpretation: Customers of age group 35-55 (working class) are likely not to subscribe to term deposit products.
+#Interpretation# : Customers of age group 35-55 (working class) are likely not to subscribe to term deposit products.
+
