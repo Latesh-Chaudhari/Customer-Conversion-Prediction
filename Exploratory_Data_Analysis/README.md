@@ -1,11 +1,11 @@
-                                                               #Exploratory Data Analysis
+<h1 align="center"> :large_orange_diamond:#Exploratory Data Analysis :large_orange_diamond: </h1>
 
 #### A. Target Variable Distribution
 ![Subscription Rate](images/Subscribed_target_variable.png)
 
 The target variable shows the subscription distribution across all customers. In the given data set, 11.27% of customers subscribed for term deposit.
 
-#### B. Demographic Features
+#### B.Features
 **<ins>Age:</ins>**
 ![Age Distribution](images/Histogram_Age_Group.png)
 
@@ -34,7 +34,7 @@ Distribution- Married (60%), Single (28%), Divorced (12%)
 
 **Interpretation**: Customers with no defaults have higher subscription rates
 
-**<ins>Contact:</ins>**
+**<ins>Contact:</ins>**  
 ![Contact Type vs Subscription](images/Subscribed_vs_contact_type.png)
 
 **Interpretation**
@@ -45,27 +45,29 @@ Distribution- Married (60%), Single (28%), Divorced (12%)
 **<ins>Call Duration:</ins>**
 ![Duration vs Subscription](images/Subscribed_vs_Contact_Duration.png)
 
- **Interpretation **
+ **Interpretation**  
     - **Strong Positive Correlation:** Longer calls significantly increase subscription probability
-    - **180+ seconds:** > 30% subscription rate
- *Insight:** Call quality and engagement crucial for conversion 
+    - **180+ seconds:** > 30% subscription rate  
+ **Insight:** Call quality and engagement crucial for conversion 
 
 **<ins>Campaign Contact:</ins>**
 ![Campaign Contacts vs Subscription](images/Subscribed_vs_No_of_Contacts.png)
 
-**Interpretation **
+**Interpretation**
    - 1-3 contacts show highest conversion
-   - >5 contacts show diminishing returns/negative impact
+   - 5+ contacts show diminishing returns/negative impact
 **Insight:** Optimal contact frequency exists
 
 **<ins>Consumer Confidence:</ins>**
-![Consumer Confidence vs Subscription](Subscribed_vs_consumer_confidence_index.png)
+![Consumer Confidence vs Subscription](images/Subscribed_vs_consumer_confidence_index.png)
 
-Consumer confidence, measured by the Consumer Confidence Index (CCI), is defined as the degree of optimism about the state of the economy that consumers are expressing through their activities of saving and spending.
+Consumer confidence, measured by the Consumer Confidence Index (CCI), is defined as the degree of optimism about the state of the economy that consumers are expressing through their activities of saving and spending.  
 **Interpretation**
   - Strong positive correlation: Higher confidence → higher subscriptions
   - Economic sentiment critical factor
 
+
+###Correlation Matrix:
 
 
 
