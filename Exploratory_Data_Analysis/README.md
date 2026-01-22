@@ -1,4 +1,4 @@
-<h1 align="center"> # :large_orange_diamond: Exploratory Data Analysis :large_orange_diamond: </h1>
+<h1 align="center"> :large_orange_diamond: Exploratory Data Analysis :large_orange_diamond: </h1>
 
 ### A. Target Variable Distribution
 ![Subscription Rate](images/Subscribed_target_variable.png)
@@ -71,11 +71,11 @@ Consumer confidence, measured by the Consumer Confidence Index (CCI), is defined
 
 ![corelation_matrix](images/Corelation_matrix.png) 
 
-i.Age variable has positive correlation with Cons.conf.idx variable which means that older customers will show more confidence in economy which will lead to higher spending/saving.
-ii.Campaign variable has positive correlation with Emp.var.rate, Cons.conf.idx and Euribor3m variables which means that these three variables will impact positively on responses for the campaign.
-iii.Pdays variable has strong negative correlation with Previous variable whereas there is a positive correlation with Emp.var.rate, Nr.employee and Euribor3m variables.
-iv.Previous variable has strong negative correlation with Pdays, Emp.var.rate, Cons.conf.idx, Nr.employee and Euribor3m variables i.e. number of days that passed by after the client was last contacted from a previous campaign and socio-economic variables impacts outcome of how many times a customer is contacted and his/her response.
-v.5 socio-economic variables Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m and Nr.employed are showing a correlation coefficient higher than 0.90 which is way too much. Our indicators are too correlated and share redundant information.  emp.var.rate isn’t meaningful. We’re removing it to soften correlations between those 5 variables. Also, there’s still a high correlation between two variables: euribor3m and nr.employed (0.94) but bank size (number of employees) isn’t reactive to euribor rate. This is probably a spurious correlation so we’re keeping all features.
+i.Age variable has positive correlation with Cons.conf.idx variable which means that older customers will show more confidence in economy which will lead to higher spending/saving.  
+ii.Campaign variable has positive correlation with Emp.var.rate, Cons.conf.idx and Euribor3m variables which means that these three variables will impact positively on responses for the campaign.  
+iii.Pdays variable has strong negative correlation with Previous variable whereas there is a positive correlation with Emp.var.rate, Nr.employee and Euribor3m variables.  
+iv.Previous variable has strong negative correlation with Pdays, Emp.var.rate, Cons.conf.idx, Nr.employee and Euribor3m variables i.e. number of days that passed by after the client was last contacted from a previous campaign and socio-economic variables impacts outcome of how many times a customer is contacted and his/her response.  
+v.5 socio-economic variables Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m and Nr.employed are showing a correlation coefficient higher than 0.90 which is way too much. Our indicators are too correlated and share redundant information.  emp.var.rate isn’t meaningful. We’re removing it to soften correlations between those 5 variables. Also, there’s still a high correlation between two variables: euribor3m and nr.employed (0.94) but bank size (number of employees) isn’t reactive to euribor rate. This is probably a spurious correlation so we’re keeping all features.  
 
 
 
