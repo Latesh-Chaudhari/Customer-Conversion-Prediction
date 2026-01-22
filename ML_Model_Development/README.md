@@ -34,17 +34,17 @@ To predict the consumer response to the telemarketing campaign , we need to use 
  ## Decision Tree based CART Model
  - Decision Trees are non-parametric supervised learning method used can be used for classification as well
  - It can be seen from the accuracy that the model can be over fit with fully grown tree because of all features. Hence smaller sub tree can be built by pruning which will provide comparable results with fewer splits and better interpretation at the cost of little bias
- - In pruned tree and according to variable importance measurement , high information value can be observed for features duration ,nr.employed , euribor3m , pdays , emp.var.rate, cons.conf.idx and cons.price.id
- -  Performance measures on Test dataset - Accuracy = 92 , AUC = 0.8652 , Gini Coefficient = 0.5136
+ - In pruned tree and according to variable importance measurement , high information value can be observed for features duration ,nr.employed , euribor3m , pdays , emp.var.rate, cons.conf.idx and cons.price.id  
+:signal_strength: Performance measures on Test dataset - Accuracy = 92 , AUC = 0.8652 , Gini Coefficient = 0.5136
 
  ## Random Forest Model 
  - Random Forest is the supervised classification algorithm which randomly creates forest with several trees
  - Random forest is based on the idea of bagging which is used to reduce the variation In prediction by combining the result of multiple decision trees on different sample of test set
  - After incorporating the hyper parameters, random forest model gives Out-of-Bag has been reduced to 8.55% and the class error has been reduced to 0.48
  - The duration, euribor3m, nr.employed, pdays, emp.var.rate, cons.price.idx,cons.conf.idx , poutcome_success seems to be significant variables
- - Performance measures on Test dataset - Accuracy = 96 , AUC = 0.9247 , Gini Coefficient = 0.9092
+ :signal_strength: Performance measures on Test dataset - Accuracy = 96 , AUC = 0.9247 , Gini Coefficient = 0.9092
 
-# Model Summary 
+:white_check_mark: # Model Summary  
 - Based on the performance measures of the models **"Random forest"** seems to be most performant model.
 - Unlike Cart, Random forest reduces the variation in prediction by combining the result of multiple decision trees on different sample of test set. Thus averaging the result causing less variation is the unique feature which comes makes random forest best model according to this dataset.
 - Duration, pdays, nr.employed, euribor3m seems to be most important features which comes out to be significant in almost all models.
