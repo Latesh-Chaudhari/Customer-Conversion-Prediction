@@ -37,32 +37,32 @@ Distribution- Married (60%), Single (28%), Divorced (12%)
 **<ins>Contact:</ins>**  
 ![Contact Type vs Subscription](images/Subscribed_vs_contact_type.png)
 
-**Interpretation**
-   - **Critical Finding:** Cellular contact shows dramatically higher subscription rates (~18-20%)
-   - **Telephone contact:** Much lower subscription rates (~5-8%)
+**Interpretation:**
+  - **Critical Finding:** Cellular contact shows dramatically higher subscription rates (~18-20%)
+  - **Telephone contact:** Much lower subscription rates (~5-8%)
 **Recommendation:** Prioritize cellular contact channels
 
 **<ins>Call Duration:</ins>**
 ![Duration vs Subscription](images/Subscribed_vs_Contact_Duration.png)
 
- **Interpretation**  
-    - **Strong Positive Correlation:** Longer calls significantly increase subscription probability
-    - **180+ seconds:** > 30% subscription rate  
+ **Interpretation:**  
+   - **Strong Positive Correlation:** Longer calls significantly increase subscription probability
+   - **180+ seconds:** > 30% subscription rate  
  **Insight:** Call quality and engagement crucial for conversion 
 
 **<ins>Campaign Contact:</ins>**
 ![Campaign Contacts vs Subscription](images/Subscribed_vs_No_of_Contacts.png)
 
-**Interpretation**
-   - 1-3 contacts show highest conversion
-   - 5+ contacts show diminishing returns/negative impact
+**Interpretation:**
+  - 1-3 contacts show highest conversion
+  - 5+ contacts show diminishing returns/negative impact
 **Insight:** Optimal contact frequency exists
 
 **<ins>Consumer Confidence:</ins>**  
 ![Consumer Confidence vs Subscription](images/Subscribed_vs_consumer_confidence_index.png)
 
 Consumer confidence, measured by the Consumer Confidence Index (CCI), is defined as the degree of optimism about the state of the economy that consumers are expressing through their activities of saving and spending.  
-**Interpretation**
+**Interpretation:**
   - Strong positive correlation: Higher confidence → higher subscriptions
   - Economic sentiment critical factor
 
